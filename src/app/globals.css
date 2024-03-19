@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(226 232 240);
+}
+
+/* Estilos para el footer */
+
+
+/* Estilos para el contenido principal */
+.main-content {
+  margin: 1110px 0 0 0;
+  padding-top: 100px;
+  /* Espaciado para el footer */
+
+}
+
+.input {
+  padding: 12px;
+  margin: 12px;
+}
+
+.drawer-side {
+  height: 102px;
+  margin: 110px 0 0 0;
+
+}

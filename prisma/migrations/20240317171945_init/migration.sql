@@ -1,0 +1,21 @@
+-- CreateTable
+CREATE TABLE "Registro" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "texto" TEXT NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+-- CreateTable
+CREATE TABLE "Tarea" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "function" TEXT NOT NULL,
+    "cronExpresion" TEXT NOT NULL,
+    "active" BOOLEAN NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+-- CreateTable
+CREATE TABLE "Function" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "formatoFunction" TEXT NOT NULL
+);
